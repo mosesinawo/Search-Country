@@ -1,0 +1,31 @@
+.nav-container{
+    display: flex;
+    align-items: center;
+    padding: 1rem 3rem 0;
+    background:#fbfbfb;
+    height: 3rem;
+    justify-content: space-between;
+    color: black;
+}
+.dark-theme{
+background-color: hsl(209, 23%, 22%);
+color: white;
+}
+.nav-text{
+font-size: 25px;
+}
+.mode{
+    font-size: 20px;
+}
+@media  (max-width: 560px){
+    .nav-container{
+        margin-top: 1rem;
+    }
+    .nav-text{
+        font-size: 18px;
+    }
+    .mode{
+        font-size: 15px;
+    }
+
+}
